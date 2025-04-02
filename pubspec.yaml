@@ -1,7 +1,9 @@
 name: date_time_converter
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Dart package for handling and converting DateTime, Duration, and Timestamp with rounding, formatting, and utility functions."
+version: 0.0.2
+homepage: https://github.com/GenieCoderSrc/date_time_converter
+repository: https://github.com/GenieCoderSrc/date_time_converter
+issue_tracker: https://github.com/GenieCoderSrc/date_time_converter/issues
 
 environment:
   sdk: ^3.6.0
@@ -25,6 +27,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+example:
+  path: example
 
   # To add assets to your package, add an assets section, like this:
   # assets:
