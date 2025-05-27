@@ -27,6 +27,7 @@ Then, run:
 flutter pub get
 ```
 
+
 ## Usage
 
 ### Import the package
