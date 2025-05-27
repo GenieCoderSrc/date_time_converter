@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.3
+- Implemented Time Ago Extension.
+
 ## 0.0.2
 ### Added
 - Extension methods for rounding `DateTime` to the nearest 10 minutes.
