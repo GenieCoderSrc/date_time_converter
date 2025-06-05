@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 ## 0.0.3+1
-- Update intl version as intl: ^0.20.2
+- Update intl version as intl: ^0.20.2 
 
 ## 0.0.3
 - Implemented Time Ago Extension.
