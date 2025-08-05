@@ -94,12 +94,6 @@ class FormatDateUtilsDateFormatImpl extends DateUtilsDateFormatImpl
 
   @override
   String formatDateAsTimeAndDay(DateTime? date) => date != null
-      ? '${convertDateToString(date, formats: <String>[
-              h,
-              ':',
-              nn,
-              ' ',
-              am
-            ])} ${formatDateAsDayWeekMonth(date)}'
+      ? '${convertDateToString(date, formats: <String>[h, ':', nn, ' ', am])} ${formatDateAsDayWeekMonth(date)}'
       : '';
 }

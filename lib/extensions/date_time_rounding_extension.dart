@@ -1,14 +1,9 @@
 extension DateTimeRoundingExtension on DateTime {
   DateTime roundDownToNearestTenMinutes() {
-    final roundedMinutes = minute -
+    final roundedMinutes =
+        minute -
         (minute % 10); // Round down the minutes to the nearest multiple of 10
-    final roundedTime = DateTime(
-      year,
-      month,
-      day,
-      hour,
-      roundedMinutes,
-    );
+    final roundedTime = DateTime(year, month, day, hour, roundedMinutes);
     return roundedTime;
   }
 

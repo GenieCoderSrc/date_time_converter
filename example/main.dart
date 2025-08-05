@@ -25,13 +25,14 @@ void main() {
   print("Time String: \${totalSeconds.toTimeString()}");
 
   // Date Conversion
-  DateTime dateFromString =
-      DateConverterImpl().convertStringToDateTime("2024-04-01T14:30:00");
+  DateTime dateFromString = DateConverterImpl().convertStringToDateTime(
+    "2024-04-01T14:30:00",
+  );
   print("Converted DateTime: \$dateFromString");
 
   // Timestamp Conversion
   Timestamp timestamp = Timestamp.now();
-  DateTime? convertedTimestamp =
-      TimeStampUtilsImpl().convertDateTimeToTimeStamp(timestamp);
+  DateTime? convertedTimestamp = TimeStampUtilsImpl()
+      .convertDateTimeToTimeStamp(timestamp);
   print("Converted Timestamp: \$convertedTimestamp");
 }

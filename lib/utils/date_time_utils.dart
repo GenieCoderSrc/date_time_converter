@@ -24,8 +24,8 @@ class TimeUtils {
 
   static String parseStringToDateAsTimeAndDay(String? dateString) =>
       dateString != null
-          ? formatDateAsTimeAndDay(DateTime.parse(dateString))
-          : '';
+      ? formatDateAsTimeAndDay(DateTime.parse(dateString))
+      : '';
 
   static String formatDateAsTimeAndDay(DateTime? date) {
     if (date != null) {
@@ -131,14 +131,14 @@ class TimeUtils {
 
   static String dateToString(DateTime date, {List<String>? formats}) =>
       formatDate(
-          date,
-          formats ??
-              <String>[dd, '-', mm, '-', yy, ', ', HH, ':', nn, ' ', am]);
+        date,
+        formats ?? <String>[dd, '-', mm, '-', yy, ', ', HH, ':', nn, ' ', am],
+      );
 
   static String dateToStringTime(DateTime date) =>
       formatDate(date, <String>[hh, ':', nn, ' ', am]);
 
-// formatDate(date, <String>[HH, ':', nn, ' ', am]);
+  // formatDate(date, <String>[HH, ':', nn, ' ', am]);
 
   static String timeAgo(DateTime dateTime) {
     final now = DateTime.now();
@@ -166,15 +166,15 @@ class TimeUtils {
     return DateFormat('h:mm a').format(dateTime); // 12:20 PM
   }
 
-// void main() {
-//   DateTime dateTime = DateTime.parse("2024-08-25T02:20:00.799539");
-//
-//   // Get a human-readable time ago string
-//   String timeAgoString = timeAgo(dateTime);
-//   print(timeAgoString); // Output will vary based on current time
-//
-//   // Get a formatted time string
-//   String timeString = formatTime(dateTime);
-//   print(timeString); // Output: 2:20 AM
-// }
+  // void main() {
+  //   DateTime dateTime = DateTime.parse("2024-08-25T02:20:00.799539");
+  //
+  //   // Get a human-readable time ago string
+  //   String timeAgoString = timeAgo(dateTime);
+  //   print(timeAgoString); // Output will vary based on current time
+  //
+  //   // Get a formatted time string
+  //   String timeString = formatTime(dateTime);
+  //   print(timeString); // Output: 2:20 AM
+  // }
 }
