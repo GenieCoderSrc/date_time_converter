@@ -1,6 +1,6 @@
 name: date_time_converter
 description: "A Dart package for handling and converting DateTime, Duration, and Timestamp with rounding, formatting, and utility functions."
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/GenieCoderSrc/date_time_converter
 repository: https://github.com/GenieCoderSrc/date_time_converter
 issue_tracker: https://github.com/GenieCoderSrc/date_time_converter/issues
@@ -15,7 +15,7 @@ dependencies:
 
   date_format: ^2.0.9
   intl: ^0.20.2
-  cloud_firestore: ^6.0.0
+  cloud_firestore: ^6.0.1
 
 dev_dependencies:
   flutter_test:
