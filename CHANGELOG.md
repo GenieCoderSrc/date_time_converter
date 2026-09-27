@@ -2,13 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.7
+
+### Sep 26, 2026
+
+### ✨ Updated
+
+- Updated `date_format ^2.0.9`
+- Updated `intl ^0.20.3`
+- Updated `cloud_firestore ^6.10.0`
+
 ## 0.0.6
 
 ### Jun 15, 2026
 
 ### ✨ Updated
 
-- Updated `cloud_firestore: ^6.5.0`
+- Updated `date_format ^2.0.9`
+- Updated `intl ^0.20.3`
+- Updated `cloud_firestore ^6.10.0`
 
 ## 0.0.5
 
