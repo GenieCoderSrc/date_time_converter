@@ -17,6 +17,8 @@ A Dart package that provides utilities for date and time conversion, formatting,
 Add the following to your `pubspec.yaml` file:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   date_time_converter: latest_version
 ```
