@@ -1,8 +1,7 @@
 extension DurationFormatting on Duration {
   String formatHoursMinutesSeconds() {
-    String formattedTime = toString()
-        .split('.')
-        .first; // Extracts the time part
+    String formattedTime =
+        toString().split('.').first; // Extracts the time part
     List<String> components = formattedTime.split(
       ':',
     ); // Splits the time into hours, minutes, and seconds

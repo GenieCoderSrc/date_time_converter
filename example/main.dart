@@ -32,7 +32,7 @@ void main() {
 
   // Timestamp Conversion
   Timestamp timestamp = Timestamp.now();
-  DateTime? convertedTimestamp = TimeStampUtilsImpl()
-      .convertDateTimeToTimeStamp(timestamp);
+  DateTime? convertedTimestamp =
+      TimeStampUtilsImpl().convertDateTimeToTimeStamp(timestamp);
   print("Converted Timestamp: \$convertedTimestamp");
 }

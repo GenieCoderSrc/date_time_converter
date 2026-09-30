@@ -24,8 +24,8 @@ class TimeUtils {
 
   static String parseStringToDateAsTimeAndDay(String? dateString) =>
       dateString != null
-      ? formatDateAsTimeAndDay(DateTime.parse(dateString))
-      : '';
+          ? formatDateAsTimeAndDay(DateTime.parse(dateString))
+          : '';
 
   static String formatDateAsTimeAndDay(DateTime? date) {
     if (date != null) {
